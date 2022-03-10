@@ -1,0 +1,25 @@
+{
+  "name": "smart_card_reader",
+  "version": "1.0.0",
+  "description": "Nodejs app for reading data from id card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivominic/smart_card_reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivominic/smart_card_reader/issues"
+  },
+  "homepage": "https://github.com/ivominic/smart_card_reader#readme",
+  "dependencies": {
+    "card-reader": "^1.0.5",
+    "node-gyp": "^9.0.0",
+    "smartcard": "^1.0.46"
+  }
+}
